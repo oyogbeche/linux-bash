@@ -1,0 +1,1 @@
+#write a script to Automate clearing temporary files older than a certain date.

@@ -1,0 +1,1 @@
+#Create a script to analyze logs (e.g., /var/log/syslog) for errors or warnings and generate a summary report.

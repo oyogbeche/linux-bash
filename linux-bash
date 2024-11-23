@@ -25,3 +25,8 @@ if (( $(echo "$MEMORY_USAGE > $MEMORY_THRESHOLD" | bc -l) )); then
     echo "Memory usage is above $MEMORY_THRESHOLD%. Sending alert email."
     echo "High Memory Usage: $MEMORY_USAGE%" | mail -s "Alert: High Memory Usage" osagieanolu22@gmail.com
 fi
+
+
+
+
+

@@ -1,4 +1,4 @@
-#Create a script to monitor and log the status of a process (sshd)
+tu#Create a script to monitor and log the status of a process (sshd)
 #!/bin/bash
 
 # Log file path
@@ -19,7 +19,7 @@ echo "$CURRENT_TIME - sshd is $STATUS" >> $LOG_FILE
 
 # Optional: Alert if sshd is not running
 if [ "$STATUS" == "not running" ]; then
-    echo "ALERT: sshd process is not running!" | mail -s "sshd Alert" admin@example.com
+    echo "ALERT: sshd process is not running!" | mail -s "sshd Alert" tumson1000000@gmail.com
 fi
 
 
